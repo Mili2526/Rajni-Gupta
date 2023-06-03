@@ -35,7 +35,7 @@ const Footer = () => {
           </span>
           <div className="flex items-center md:justify-center py-2">
             <Image
-              src="/images/Softmation-logo.png"
+              src="/images/softmation-logo.png"
               width={500}
               height={500}
               alt="softmation Innovation Logo"
