@@ -30,6 +30,18 @@ function App() {
     {
       img: "/images/img7.jpg"
     }
+    ,
+    {
+      img: "/images/img8.jpg"
+    },
+    {
+      img: "/images/img9.jpeg"
+    },
+    {
+      img: "/images/img10.jpeg"
+    },
+    
+    
   ]
 
   return (

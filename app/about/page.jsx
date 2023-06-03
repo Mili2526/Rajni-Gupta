@@ -1,4 +1,4 @@
-import Timeline from "@/components/Timeline";
+
 import Image from "next/image";
 
 const page = () => {
@@ -81,7 +81,7 @@ const page = () => {
 
       <p className="px-5 text-justify pb-20">Working with <b>IDG (Indian Development Group ) as General Secretary </b>  to empower rural communities in the world&apos;s democracy.providing funding, resources and Sponserships Attended workshop on Rural Entrepreneurship in Biopesticides and Neem based products at Institute of Rural Developments .Lucknow University as a  <b>Project Coordinater</b>. attended <b> ICDS and ICH meeting </b> at Uttar Pradesh prashashan and prabandhan academy (IMDUP). </p>
 
-      <Timeline />
+     
     </>
   );
 };
