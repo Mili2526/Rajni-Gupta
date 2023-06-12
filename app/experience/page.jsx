@@ -3,7 +3,10 @@ import Experience from "@/props/Experience";
 const page = () => {
   return (
     <div>
-      <p className="font-bold text-5xl text-orange-500 text-center py-5">
+      <div className=" cover_image w-full h-48 flex justify-center items-center text-5xl text-white font-bold">
+        Rajni Gupta
+      </div>
+      <p className="font-bold text-5xl text-primary text-center py-10">
         Experience
       </p>
 
@@ -24,7 +27,7 @@ const page = () => {
       <Experience desc="Organised Health Camps at various blocks of Lucknow district. Transfer of improved technologies so that quality of life of rural women is improved like Smokeless Chulha, ball bearing chakki, food safes, and Safe Drinking Water arrangements. Introducing Soakage Pits, Kuradans. Improved houses imparting women is improved agricultural practices. Popularizing mint farming in Mohanlalganj block of Lucknow District." />
 
       <Experience desc=" Implemented CARE Programmes at 4 blocks of Lucknow Districts." />
-      
+
       <Experience desc="26 years experience in library and information services in ATDA (NGO), 20 years experience in women and rural development. Since 1981 working as a librarian and women coordinator with ADTA, Indian Development Group (IDG) & Research and Development in the field of women expowerment." />
     </div>
   );

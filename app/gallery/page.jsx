@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <br />
-      <div className="text-center font-bold text-5xl text-blue-600">
+      <div className="text-center font-bold text-5xl text-primary">
        Gallery
       </div>
       <br /><br />

@@ -3,7 +3,7 @@ import Event from "@/props/Event";
 const Timeline = () => {
   return (
     <div>
-      <p className="text-orange-500  font-bold text-center text-5xl py-16 ">
+      <p className="text-primary  font-bold text-center text-5xl py-16 ">
         Timelines
       </p>
       <div className="px-10 md:px-28 mb-36">

@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="text-white text-2xl lg:text-3xl pb-3">
           Visionary lady, dedicated to nation.
         </p>
-        <Link href="/about"><button className="bg-green-500 px-5 py-2 rounded-lg font-bold text-white">
+        <Link href="/about"><button className="bg-secondary px-5 py-2 rounded-lg font-bold text-white">
           Know More
         </button></Link>
       </div>

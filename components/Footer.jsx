@@ -21,7 +21,6 @@ const Footer = () => {
             <ul className="flex gap-5 flex-wrap items-center mb-6  font-medium text-white sm:mb-0 ">
               <Link href="/about"><li className=" hover:underline md:mr-6">About</li></Link>
               <Link href="/gallery"><li className=" hover:underline md:mr-6">Gallery</li></Link>
-              <Link href="/program"><li className=" hover:underline md:mr-6">Program</li></Link>
               <Link href="contact"><li className=" hover:underline">Contact</li></Link>
             </ul>
           </div>
