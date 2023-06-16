@@ -3,10 +3,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-slate-600 rounded-lg shadow  m-4">
-        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <footer className="bg-gray-700 rounded-lg shadow h-fit">
+        <div className="w-full max-w-screen-xl mx-auto p-2 md:py-4">
           <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="/" className="flex items-center mb-4 sm:mb-0">
+            <a href="/" className="flex items-center sm:mb-0">
               <Image
                 src="/images/rajni-logo.png"
                 height={500}
@@ -14,17 +14,17 @@ const Footer = () => {
                 className="w-16 mr-3"
                 alt="Rajni-logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 Rajni Gupta
               </span>
             </a>
-            <ul className="flex gap-5 flex-wrap items-center mb-6  font-medium text-white sm:mb-0 ">
+            <ul className="flex gap-5 flex-wrap items-center mb-2  font-medium text-white sm:mb-0 ">
               <Link href="/about"><li className=" hover:underline md:mr-6">About</li></Link>
               <Link href="/gallery"><li className=" hover:underline md:mr-6">Gallery</li></Link>
               <Link href="contact"><li className=" hover:underline">Contact</li></Link>
             </ul>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+          <hr className="my-2 border-gray-200 sm:mx-auto" />
           <span className="block text-sm text-white sm:text-center ">
             © 2023{" "}
             <a href="/" className="hover:underline font-bold">

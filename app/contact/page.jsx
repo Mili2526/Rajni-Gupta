@@ -14,7 +14,7 @@ const page = () => {
                 <span className="text-primary mb-4 block text-base font-semibold">
                   Contact Us
                 </span>
-                <h2 className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                <h2 className="text-secondary mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
                 <div className="mb-8 flex w-full max-w-[370px]">

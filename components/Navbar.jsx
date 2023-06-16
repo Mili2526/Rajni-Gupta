@@ -102,7 +102,7 @@ const Navbar = () => {
           <div
             className={
               menu
-                ? ` h-full w-1/2 absolute top-0 right-0 bg-[#ff7f50] z-50`
+                ? ` h-full w-1/2 absolute top-0 right-0 bg-primary z-50`
                 : `hidden`
             }
           >
@@ -113,33 +113,33 @@ const Navbar = () => {
 
             <ul className="flex flex-col gap-10 my-24 items-center">
               <Link href="/">
-                <li className="text-white font-medium  text-xl cursor-pointer">
+                <li className="text-white font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   Home
                 </li>
               </Link>
               <Link href="/about">
-                <li className="text-white font-medium  text-xl cursor-pointer">
+                <li className="text-white font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   About
                 </li>
               </Link>
 
               <Link href="/gallery">
-                <li className="text-white font-medium  text-xl cursor-pointer">
+                <li className="text-white font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   Gallery
                 </li>
               </Link>
               <Link href="/educationalQualifications">
-                <li className="text-white  font-medium  text-xl cursor-pointer">
+                <li className="text-white  font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   Educational <br /> Qualifications
                 </li>
               </Link>
               <Link href="/experience">
-                <li className="text-white font-medium  text-xl cursor-pointer">
+                <li className="text-white font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   Experience
                 </li>
               </Link>
               <Link href="/contact">
-                <li className="text-white font-medium  text-xl cursor-pointer">
+                <li className="text-white font-medium  text-xl cursor-pointer" onClick={closeMenu}>
                   Contact
                 </li>
               </Link>

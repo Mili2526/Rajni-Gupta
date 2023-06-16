@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       
+
+
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -39,11 +41,10 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="bg">
+      <body className="bg layout">
         <Navbar />
         {children}
         <Footer />
-        
       </body>
     </html>
   );
