@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="md:bg-white md:-m-14 md:shadow-2xl md:rounded-xl md:mx-10 my-20">
+    <div className="md:bg-white  md:shadow-2xl md:rounded-xl md:mx-10 my-56 relative z-50 md:my-20">
     <div className="px-8  md:flex gap-10 items-center">
       <div className=" md:w-[50%] md:px-16">
         <Image

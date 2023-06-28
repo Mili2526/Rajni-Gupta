@@ -41,10 +41,11 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="bg layout">
+      <body className="bg layout overflow-x-hidden">
         <Navbar />
         {children}
         <Footer />
+   
       </body>
     </html>
   );

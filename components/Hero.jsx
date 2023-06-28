@@ -3,8 +3,9 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div>
-      <div className="hero px-10 flex flex-col justify-center items-center">
-        <p className="text-white font-bold text-6xl lg:text-7xl py-3">
+      <div class="pic-ctn">
+     <div className="relative z-50 flex flex-col justify-center items-center h-96 ">
+     <p className="text-white font-bold text-6xl lg:text-7xl py-3">
           Rajni Gupta
         </p>
         <p className="text-white text-2xl lg:text-3xl pb-3">
@@ -13,6 +14,12 @@ const Hero = () => {
         <Link href="/about"><button className="button">
           Know More
         </button></Link>
+     </div>
+        <Image src="/images/bg1.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg2.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg3.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg4.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg5.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
       </div>
     </div>
   );
