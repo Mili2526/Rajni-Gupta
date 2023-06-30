@@ -36,11 +36,11 @@ function App() {
   ]
 
   return (
-    <div className="App">
-      <br />
-      <div className="text-center font-bold text-5xl text-primary">
-       Gallery
+    <div className="App mb-28">
+     <div className="cover_image  w-full h-48 flex justify-center items-center text-5xl text-white font-bold">
+        Gallery
       </div>
+      <br />
       <br /><br />
 
       <WSPGallery

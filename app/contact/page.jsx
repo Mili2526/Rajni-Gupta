@@ -4,17 +4,11 @@ const page = () => {
   return (
     <div>
       <div className="cover_image  w-full h-48 flex justify-center items-center text-5xl text-white font-bold">
-        Rajni Gupta
+        Contact Info
       </div>
      <div className="lg:flex">
-     <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+     <div className="w-full px-4 lg:w-1/2 xl:w-6/12 py-16">
               <div className=" max-w-[570px] lg:mb-0">
-                <span className="text-primary  block text-base font-semibold">
-                  Contact Us
-                </span>
-                <h2 className="text-secondary  text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  GET IN TOUCH WITH US
-                </h2>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                     <svg
