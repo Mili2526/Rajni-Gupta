@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -49,7 +50,7 @@ const WSPGallery = ({galleryImages}) => {
           <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
           <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage'>
-            <img src={galleryImages[slideNumber].img} alt='' />
+            <Image src={galleryImages[slideNumber].img} alt='' width={500} height={500} />
           </div>
         </div>
       }
@@ -68,7 +69,7 @@ const WSPGallery = ({galleryImages}) => {
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
-                <img src={slide.img} alt='' />
+                <Image src={slide.img} alt='' width={500} height={500} className='w-[500px] h-[200px]'/>
               </div>
             )
           })
