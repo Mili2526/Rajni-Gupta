@@ -102,7 +102,7 @@ const Navbar = () => {
           <div
             className={
               menu
-                ? ` h-full w-1/2 absolute top-0 right-0 bg-primary z-50`
+                ? ` h-full w-1/2 absolute top-0 right-0 bg-primary z-[60]`
                 : `hidden`
             }
           >

@@ -466,7 +466,7 @@ export default function Index() {
             step={1}
             infinite={true}
           >
-            <div className="w-96 relative flex items-center justify-center">
+            <div className="w-[400px]  relative flex items-center justify-center px-30">
               <ButtonBack
                 role="button"
                 aria-label="slide backward"
@@ -493,12 +493,12 @@ export default function Index() {
                 <Slider>
                   <div
                     id="slider"
-                    className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
+                    className="h-full w-full flex  items-center justify transition ease-out duration-700"
                   >
                     <Slide index={0}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10  " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12 ">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           Appropriate Technology Development Association
                           (A.T.D.A.), Gandhi Bhawan, Lucknow as a programme
                           coordinator, (Nature of job- Implementation of
@@ -511,9 +511,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={1}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 flex flex-col justify-center">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           With extensive experience in leading TRYSUM Training,
                           I have empowered rural youths in Mohanlalganj and
                           Chinhat blocks through income-generating activities,
@@ -527,9 +527,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={2}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 flex flex-col justify-center ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10  " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           With 26 years in library services at ATDA NGO, and 20
                           years in women and rural development, I&apos;ve been a
                           librarian and women coordinator since 1981, working on
@@ -542,9 +542,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={3}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           As a supervisor, I effectively oversaw the STEP
                           Project in Malin Basti (Deen Dayal Nagar) and Naseem
                           Manjil, empowering 30 women at each center and
@@ -557,9 +557,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={4}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 flex flex-col justify-center ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           Implemented the Swayam Sidha Project in Siddhor Block,
                           Barabanki district, forming Self Help Groups for
                           women. The project, sanctioned by Mahila Kalyan Nigam,
@@ -572,9 +572,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={5}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10  " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           Through a series of seminars and meetings, I
                           diligently worked to raise awareness among women about
                           their legal rights, empowering them with knowledge and
@@ -587,9 +587,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={6}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 flex flex-col justify-center ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto  absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           I am associated with Rashtriya Mahila Sansthan as
                           President in Lucknow District, leading a helpline
                           consultancy service for distressed women, guiding them
@@ -602,9 +602,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={7}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 ">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           Organized Health Camps, introduced improved
                           technologies like Smokeless Chulha, ball bearing
                           chakki, and Safe Drinking Water arrangements, and
@@ -617,9 +617,9 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={8}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-96 text-center text-xl px-12 py-10 flex flex-col justify-center">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           Organized Health Camps, introduced improved
                           technologies like Smokeless Chulha, ball bearing
                           chakki, and Safe Drinking Water arrangements, and
@@ -632,15 +632,30 @@ export default function Index() {
                       </div>
                     </Slide>
                     <Slide index={8}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <div className="z-50 h-[450px] text-center text-xl px-12 py-10 flex flex-col justify-center">
-                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 " />
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
                           26 years experience in library and information
                           services in ATDA (NGO), 20 years experience in women
                           and rural development. Since 1981 working as a
                           librarian and women coordinator with ADTA, Indian
                           Development Group (IDG) & Research and Development in
                           the field of women expowerment.
+                        </div>
+                        <div className="bg-color bg-opacity-30 absolute w-full h-full p-6">
+                          <div className="flex h-full items-end pb-6"></div>
+                        </div>
+                      </div>
+                    </Slide>
+                    <Slide index={9}>
+                    <div className="flex flex-shrink-0 relative w-full h-96 sm:w-auto">
+                        <div className="z-50 flex flex-col justify-center items-center mx-auto text-center px-12">
+                          <BsBriefcaseFill className=" text-4xl z-50 shrink-0 text-blue-500 my-2 mx-auto absolute top-10 pb-1  " />
+                          Implemented CARE Programmes in four blocks of Lucknow
+                          Districts, focusing on women&apos;s education,
+                          healthcare, livelihood opportunities, and community
+                          development to uplift the marginalized sections of
+                          society.
                         </div>
                         <div className="bg-color bg-opacity-30 absolute w-full h-full p-6">
                           <div className="flex h-full items-end pb-6"></div>
