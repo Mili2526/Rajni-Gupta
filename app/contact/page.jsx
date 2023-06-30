@@ -6,15 +6,13 @@ const page = () => {
       <div className="cover_image  w-full h-48 flex justify-center items-center text-5xl text-white font-bold">
         Rajni Gupta
       </div>
-      <section className="relative z-10 overflow-hidden bg-white py-5 px-5">
-        <div className="container mx-auto">
-          <div className="-mx-4 flex flex-wrap lg:justify-between">
-            <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0">
-                <span className="text-primary mb-4 block text-base font-semibold">
+     <div className="lg:flex">
+     <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+              <div className=" max-w-[570px] lg:mb-0">
+                <span className="text-primary  block text-base font-semibold">
                   Contact Us
                 </span>
-                <h2 className="text-secondary mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                <h2 className="text-secondary  text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
                 <div className="mb-8 flex w-full max-w-[370px]">
@@ -80,52 +78,15 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                <form>
-                  <div className="mb-6">
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <input
-                      type="email"
-                      placeholder="Your Email"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <input
-                      type="text"
-                      placeholder="Your Phone"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                    />
-                  </div>
-                  <div className="mb-6">
-                    <textarea
-                      rows="6"
-                      placeholder="Your Message"
-                      className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                    ></textarea>
-                  </div>
-                  <div>
-                    <button
-                      type="submit"
-                      className="bg-[#FF5F15] border-primary w-full rounded border p-3 text-white transition hover:bg-opacity-90"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form>
-                <div></div>
-              </div>
+            <div className="py-16">
+            <div className="lg:hidden">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGhvaNNbDDP7FkEOshrG5cT4YYCC_RrUGfjDj8nFag3tVgBg/viewform?embedded=true" width="400" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
-          </div>
-        </div>
-      </section>
+            <div className="hidden lg:flex">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGhvaNNbDDP7FkEOshrG5cT4YYCC_RrUGfjDj8nFag3tVgBg/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+            </div>
+     </div>
     </div>
   );
 };

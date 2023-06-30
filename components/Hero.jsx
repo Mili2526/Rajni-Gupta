@@ -15,11 +15,11 @@ const Hero = () => {
           Know More
         </button></Link>
      </div>
-        <Image src="/images/bg1.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
-        <Image src="/images/bg2.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
-        <Image src="/images/bg3.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
-        <Image src="/images/bg4.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
-        <Image src="/images/bg5.jpg" alt="" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg1.jpg" alt="bg-image" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg2.jpg" alt="bg-image" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg3.jpg" alt="bg-image" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg4.jpg" alt="bg-image" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
+        <Image src="/images/bg5.jpg" alt="bg-image" class="pic h-[500px] w-full brightness-50" width={500} height={500} />
       </div>
     </div>
   );
